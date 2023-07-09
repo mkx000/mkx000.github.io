@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Portfolio on Kevin&#39;s blog</title>
+    <link>https://mkx000.github.io/tags/portfolio/</link>
+    <description>Recent content in Portfolio on Kevin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jul 2023 16:46:59 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用hugo和papermod构静态网站（本地运行）</title>
+      <link>https://mkx000.github.io/posts/%E7%94%A8hugo%E5%92%8Cpapermod%E6%9E%84%E5%BB%BA%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Sat, 08 Jul 2023 16:46:59 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/%E7%94%A8hugo%E5%92%8Cpapermod%E6%9E%84%E5%BB%BA%E7%BD%91%E7%AB%99/</guid>
+      <description>This post provides an overview of Hugo (PaperMod theme) and details the steps I took in setting up this website.</description>
+    </item>
+    
+  </channel>
+</rss>
