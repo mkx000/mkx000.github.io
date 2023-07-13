@@ -6,22 +6,32 @@
     <description>Recent content in Posts on Kevin&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jul 2023 16:56:49 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jul 2023 11:37:02 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Second Post</title>
+      <title>Langchain</title>
+      <link>https://mkx000.github.io/posts/langchain-summmay/</link>
+      <pubDate>Tue, 11 Jul 2023 11:37:02 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/langchain-summmay/</guid>
+      <description>关于langchain的一些总结和思考, 各类资源汇总</description>
+    </item>
+    
+    <item>
+      <title>学习笔记 : LLM Powered Autonomous Agents</title>
       <link>https://mkx000.github.io/posts/second-post/</link>
       <pubDate>Sat, 08 Jul 2023 16:56:49 +0800</pubDate>
       
       <guid>https://mkx000.github.io/posts/second-post/</guid>
-      <description>Second post</description>
+      <description>[toc]
+文章出处在这里</description>
     </item>
     
     <item>
-      <title>使用hugo和papermod构静态网站（本地运行）</title>
-      <link>https://mkx000.github.io/posts/%E7%94%A8hugo%E5%92%8Cpapermod%E6%9E%84%E5%BB%BA%E7%BD%91%E7%AB%99/</link>
+      <title>Github Pages &#43; Hugo &#43; PaperMod搭建个人博客</title>
+      <link>https://mkx000.github.io/posts/github-pages-&#43;-hugo-&#43;-papermod%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 08 Jul 2023 16:46:59 +0800</pubDate>
       
-      <guid>https://mkx000.github.io/posts/%E7%94%A8hugo%E5%92%8Cpapermod%E6%9E%84%E5%BB%BA%E7%BD%91%E7%AB%99/</guid>
+      <guid>https://mkx000.github.io/posts/github-pages-&#43;-hugo-&#43;-papermod%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>This post provides an overview of Hugo (PaperMod theme) and details the steps I took in setting up this website.</description>
     </item>
     

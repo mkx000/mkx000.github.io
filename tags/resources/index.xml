@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>resources on Kevin&#39;s blog</title>
+    <link>https://mkx000.github.io/tags/resources/</link>
+    <description>Recent content in resources on Kevin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2023 11:37:02 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Langchain</title>
+      <link>https://mkx000.github.io/posts/langchain-summmay/</link>
+      <pubDate>Tue, 11 Jul 2023 11:37:02 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/langchain-summmay/</guid>
+      <description>关于langchain的一些总结和思考, 各类资源汇总</description>
+    </item>
+    
+  </channel>
+</rss>
