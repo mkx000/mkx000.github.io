@@ -23,7 +23,12 @@
       
       <guid>https://mkx000.github.io/posts/second-post/</guid>
       <description>[toc]
-文章出处在这里</description>
+文章出处在这里
+Overview LLM powered autonomous agents: planning + memeoy + tool use
+1. planning Chain of thought:
+想法 prior work A: 可以通过产生用自然语言表达的中间步骤使得LLM获得更好的推理能力, techniques for arithmetic reasoning can benefit from generating natural language rationales that lead to the final answer。
+缺点: 要想训练具有良好推理能力的大模型(或者fine-tune a pretrained model), 需要大量的高质量推理数据集, 成本太高, 远远超过简单的input-output pairs。
+prior work B: 大模型已经可以通过prompt工程获得出色的少样本学习能力, large language models offer the exciting prospect of in-context few-shot learning via prompting. That is, instead of finetuning a separate language model checkpoint for each new task, one can simply “prompt” the model with a few input–output exemplars demonstrating the task</description>
     </item>
     
     <item>
