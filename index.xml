@@ -6,7 +6,42 @@
     <description>Recent content on Kevin&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2023 11:37:02 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 15:22:27 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用barrier在多台设备间共享鼠标和键盘</title>
+      <link>https://mkx000.github.io/posts/%E4%BD%BF%E7%94%A8barrier%E5%9C%A8%E5%A4%9A%E5%8F%B0%E8%AE%BE%E5%A4%87%E9%97%B4%E5%85%B1%E4%BA%AB%E9%BC%A0%E6%A0%87%E5%92%8C%E9%94%AE%E7%9B%98/</link>
+      <pubDate>Tue, 01 Aug 2023 15:22:27 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/%E4%BD%BF%E7%94%A8barrier%E5%9C%A8%E5%A4%9A%E5%8F%B0%E8%AE%BE%E5%A4%87%E9%97%B4%E5%85%B1%E4%BA%AB%E9%BC%A0%E6%A0%87%E5%92%8C%E9%94%AE%E7%9B%98/</guid>
+      <description>介绍 Barrier是一款开源的多平台的鼠标键盘共享软件，可以在多台设备间共享鼠标和键盘，支持Windows、Linux、MacOS等多种操作系统(不同平台(例如一台Windows,一台Linux)的设备也可以共享一套鼠标键盘)。
+安装 Windows Winodws下安装很简单，直接下载这个安装包安装即可。
+Linux 各大发行版一般都有对应的包，例如Ubuntu可以直接使用apt安装：
+sudo apt install barrier 使用说明 这个软件有两种模式，一种是服务端模式，一种是客户端模式。使用的时候需要一台充当服务端，其他的设备充当客户端, 启动服务端之后, 客户端只需要脸上服务端的IP地址即可, 非常简单。
+使用过程中需要注意的点：
+  最好去掉SSL选项
+  asfdasdfasdf
+   </description>
+    </item>
+    
+    <item>
+      <title>python是如何查找标识符并对其赋值的</title>
+      <link>https://mkx000.github.io/posts/python%E6%98%AF%E5%A6%82%E4%BD%95%E6%9F%A5%E6%89%BE%E5%8F%98%E9%87%8F%E5%B9%B6%E5%AF%B9%E5%85%B6%E8%B5%8B%E5%80%BC%E7%9A%84/</link>
+      <pubDate>Fri, 28 Jul 2023 12:41:37 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/python%E6%98%AF%E5%A6%82%E4%BD%95%E6%9F%A5%E6%89%BE%E5%8F%98%E9%87%8F%E5%B9%B6%E5%AF%B9%E5%85%B6%E8%B5%8B%E5%80%BC%E7%9A%84/</guid>
+      <description>函数 The execution of a function introduces a new symbol table used for the local variables of the function. More precisely, all variable assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the local symbol tables of enclosing functions, then in the global symbol table, and finally in the table of built-in names. Thus, global variables and variables of enclosing functions cannot be directly assigned a value within a function (unless, for global variables, named in a global statement, or, for variables of enclosing functions, named in a nonlocal statement), although they may be referenced.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Python</title>
+      <link>https://mkx000.github.io/posts/intro-to-python/</link>
+      <pubDate>Tue, 25 Jul 2023 23:44:36 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/intro-to-python/</guid>
+      <description>Overivew python is a dynamic typing language&amp;hellip;
+tips </description>
+    </item>
+    
     <item>
       <title>Langchain</title>
       <link>https://mkx000.github.io/posts/langchain-summmay/</link>
