@@ -13,16 +13,17 @@
       <pubDate>Tue, 01 Aug 2023 15:22:27 +0800</pubDate>
       
       <guid>https://mkx000.github.io/posts/%E4%BD%BF%E7%94%A8barrier%E5%9C%A8%E5%A4%9A%E5%8F%B0%E8%AE%BE%E5%A4%87%E9%97%B4%E5%85%B1%E4%BA%AB%E9%BC%A0%E6%A0%87%E5%92%8C%E9%94%AE%E7%9B%98/</guid>
-      <description>介绍 Barrier是一款开源的多平台的鼠标键盘共享软件，可以在多台设备间共享鼠标和键盘，支持Windows、Linux、MacOS等多种操作系统(不同平台(例如一台Windows,一台Linux)的设备也可以共享一套鼠标键盘)。 需要注意的是
+      <description>介绍 Barrier是一款开源的多平台的鼠标键盘共享软件，可以在多台设备间共享鼠标和键盘，支持Windows、Linux、MacOS等多种操作系统，不同平台(例如一台Windows,一台Linux)的设备也可以共享一套鼠标键盘。
+需要注意的是所有设备必须处于同一个局域网内。
 安装 Windows Winodws下安装很简单，直接下载这个安装包安装即可。
 Linux 各大发行版一般都有对应的包，例如Ubuntu可以直接使用apt安装：
-sudo apt install barrier 使用说明 这个软件有两种模式，一种是服务端模式，一种是客户端模式。使用的时候需要一台充当服务端，其他的设备充当客户端, 启动服务端之后, 客户端只需要脸上服务端的IP地址即可, 非常简单。
+sudo apt install barrier 使用说明 这个软件有两种模式，一种是服务端模式，一种是客户端模式。使用的时候需要一台设备充当服务端，其他的设备充当客户端, 启动服务端之后, 客户端只需要输入服务端的IP地址连接即可, 非常简单。
 使用过程中需要注意的点：
-0. 作者只尝试过使用Windows作为服务端，Linux作为客户端的情况，其他情况没有尝试过，不保证可用性 这里贴一个官方repo里面某个issue的连接，里面解决了很多问题，可以参考一下： https://github.com/debauchee/barrier/issues/190
-主要的问题：
+0. 作者只尝试过使用Windows作为服务端，Linux作为客户端的情况 这里贴一个官方repo里面某个issue的连接，里面解决了很多问题，可以参考一下： https://github.com/debauchee/barrier/issues/190
 1. 网络问题，服务端和客户端必须要在一个局域网内，不能跨网段 启动服务端和客户端之后，可以通过barrier-&amp;gt;日志查看日志消息，根据错误提示判断问题类型
-# windows cmd下可以通过下面的命令查看ip地址, 也可以通过图形界面右下角点击所连接网络（有线或者无线）的属性查看 ipconfig # linux下可以通过下面的命令查看ip地址 ip addr # 可以通过下面的命令检查客户端和服务器是否可以建立TCP连接 # 服务端起一个http服务器 python3 -m http.server 8000 # 客户端访问服务端的http服务器 nc -vz 服务器ip地址 8000 # 如果可以建立连接，会输出下面的信息 Connection to 服务器ip地址 8000 port [tcp/*] succeeded! 2. 使用的时候需要在客户端输入服务端的IP地址才能连接，如果出现了多个网络接口的ip地址，往往是Virtual box或者VMware的虚拟网卡，需要去掉这些虚拟网卡(禁用相关的网络适配器即可)，只保留真实的网卡，需要注意的是服务端会显示若干个网络接口地址，加黑的ip地址需要和真正的网卡地址一致 可以在Windows上启动一个http服务器测试网络的连通性
-python3 -m http.server 8000 # 然后在Linux上使用下面的命令查看是否可以访问 nc -vz 服务器ip地址 8000 3.</description>
+# windows cmd下可以通过下面的命令查看ip地址, 也可以通过图形界面右下角点击所连接网络（有线或者无线）的属性查看 ipconfig # linux下可以通过下面的命令查看ip地址 ip addr # 可以通过下面的命令检查客户端和服务器是否可以建立TCP连接 # 服务端起一个http服务器 python3 -m http.server 8000 # 客户端访问服务端的http服务器 nc -vz 服务器ip地址 8000 # 如果可以建立连接，会输出下面的信息 Connection to 服务器ip地址 8000 port [tcp/*] succeeded! 2. 服务端多IP问题 使用的时候需要在客户端输入服务端的IP地址才能连接，如果出现了多个网络接口的ip地址，往往是Virtual box或者VMware的虚拟网卡，需要去掉这些虚拟网卡(禁用相关的网络适配器即可)，只保留真实的网卡，需要注意的是服务端会显示若干个网络接口地址，加黑的ip地址需要和真正的网卡地址(也就是你正在用的局域网分配给你的地址)一致
+可以在Windows上启动一个http服务器测试网络的连通性
+# Windows python3 -m http.server 8000 # 然后在Linux上使用下面的命令查看是否可以访问 nc -vz 服务器ip地址 8000 3.</description>
     </item>
     
     <item>
