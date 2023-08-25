@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>networking on Kevin&#39;s blog</title>
+    <link>https://mkx000.github.io/tags/networking/</link>
+    <description>Recent content in networking on Kevin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Aug 2023 17:45:18 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网络</title>
+      <link>https://mkx000.github.io/posts/networking/</link>
+      <pubDate>Sun, 20 Aug 2023 17:45:18 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/networking/</guid>
+      <description>描述这篇文章.</description>
+    </item>
+    
+  </channel>
+</rss>
