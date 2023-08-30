@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Kevin&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Aug 2023 17:45:18 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 21:23:20 +0800</lastBuildDate><atom:link href="https://mkx000.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://mkx000.github.io/posts/good-websites/</link>
+      <pubDate>Wed, 30 Aug 2023 21:23:20 +0800</pubDate>
+      
+      <guid>https://mkx000.github.io/posts/good-websites/</guid>
+      <description>收集一些好的blog</description>
+    </item>
+    
     <item>
       <title>网络</title>
       <link>https://mkx000.github.io/posts/networking/</link>
